@@ -1,0 +1,113 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        a062d66 com.santamaria.flappykek/.AndroidLauncher filter 48a2284
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.android.vending.INSTALL_REFERRER:
+        95a98a7 com.santamaria.flappykek/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver filter b0faf16
+          Action: "com.android.vending.INSTALL_REFERRER"
+          AutoVerify=false
+      com.google.android.c2dm.intent.RECEIVE:
+        e401154 com.santamaria.flappykek/com.google.firebase.iid.FirebaseInstanceIdReceiver filter e0a7097
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.santamaria.flappykek"
+          AutoVerify=false
+      com.google.android.c2dm.intent.REGISTRATION:
+        e401154 com.santamaria.flappykek/com.google.firebase.iid.FirebaseInstanceIdReceiver filter e0a7097
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "com.santamaria.flappykek"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        18728fd com.santamaria.flappykek/com.google.firebase.iid.FirebaseInstanceIdService filter a46ec31
+          Action: "com.google.firebase.INSTANCE_ID_EVENT"
+          mPriority=-500, mHasPartialTypes=false
+          AutoVerify=false
+
+Permissions:
+  Permission [com.santamaria.flappykek.permission.C2D_MESSAGE] (a32c796):
+    sourcePackage=com.santamaria.flappykek
+    uid=10218 gids=null type=0 prot=signature
+    perm=Permission{5b7b9f2 com.santamaria.flappykek.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{7ac2f04 com.santamaria.flappykek/10218}
+
+Registered ContentProviders:
+  com.santamaria.flappykek/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{d0e1843 com.santamaria.flappykek/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.santamaria.flappykek.firebaseinitprovider]:
+    Provider{d0e1843 com.santamaria.flappykek/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{136eec0 com.santamaria.flappykek}
+
+Key Set Manager:
+  [com.santamaria.flappykek]
+      Signing KeySets: 176
+
+Packages:
+  Package [com.santamaria.flappykek] (7ac2f04):
+    userId=10218
+    pkg=Package{9a257f9 com.santamaria.flappykek}
+    codePath=/data/app/com.santamaria.flappykek-2
+    resourcePath=/data/app/com.santamaria.flappykek-2
+    legacyNativeLibraryDir=/data/app/com.santamaria.flappykek-2/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=3 minSdk=14 targetSdk=26
+    versionName=1.2
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{136eec0 com.santamaria.flappykek}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.santamaria.flappykek
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-10-24 12:56:09
+    firstInstallTime=2017-10-24 12:45:15
+    lastUpdateTime=2017-10-24 12:56:10
+    installerPackageName=com.android.packageinstaller
+    signatures=PackageSignatures{63f3770 [f309713c]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.santamaria.flappykek.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      com.santamaria.flappykek.permission.C2D_MESSAGE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.INTERNET: granted=true
+      com.santamaria.flappykek.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=1835020 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      lastDisabledCaller: com.android.packageinstaller
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.santamaria.flappykek]
+    Instruction Set: arm64
+      path: /data/app/com.santamaria.flappykek-2/base.apk
+      status: /data/app/com.santamaria.flappykek-2/oat/arm64/base.odex [compilation_filter=interpret-only, status=kOatUp
+      ToDate]
+
+
+Compiler stats:
+  [com.santamaria.flappykek]
+     base.apk - 650

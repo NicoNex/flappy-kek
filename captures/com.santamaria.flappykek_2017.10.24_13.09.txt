@@ -1,0 +1,298 @@
+CURRENT STATS:
+System memory usage:
+  SOff/Norm: 2 samples:
+    Cached: 891MB min, 895MB avg, 899MB max
+    Free: 90MB min, 166MB avg, 242MB max
+    ZRam: 111MB min, 112MB avg, 114MB max
+    Kernel: 354MB min, 356MB avg, 357MB max
+    Native: 276MB min, 276MB avg, 276MB max
+  SOn /Norm: 1 samples:
+    Cached: 671MB min, 671MB avg, 671MB max
+    Free: 64MB min, 64MB avg, 64MB max
+    ZRam: 111MB min, 111MB avg, 111MB max
+    Kernel: 364MB min, 364MB avg, 364MB max
+    Native: 283MB min, 283MB avg, 283MB max
+
+Per-Package Stats:
+  * com.santamaria.flappykek / u0a217 / v3:
+      * com.santamaria.flappykek / u0a217 / v3:
+               TOTAL: 8.5% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+                 Top: 8.5% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+          (Last Act): 0.15%
+      * com.google.firebase.iid.FirebaseInstanceIdService:
+        Process: com.santamaria.flappykek
+            Running count 4 / time 0.09%
+            Started count 2 / time 0.09%
+            Executing count 4 / time 0.03%
+  * com.santamaria.flappykek / u0a218 / v3:
+      * com.santamaria.flappykek / u0a218 / v3:
+               TOTAL: 48% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+                 Top: 48% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+          (Last Act): 2.6% (72MB-72MB-72MB/63MB-63MB-63MB over 1)
+            (Cached): 0.05%
+      * com.google.firebase.iid.FirebaseInstanceIdService:
+        Process: com.santamaria.flappykek
+            Running count 4 / time 0.11%
+            Started count 2 / time 0.11%
+            Executing count 4 / time 0.03%
+
+Summary:
+  * com.santamaria.flappykek / u0a218 / v3:
+           TOTAL: 48% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+             Top: 48% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+      (Last Act): 2.6% (72MB-72MB-72MB/63MB-63MB-63MB over 1)
+        (Cached): 0.05%
+  * com.santamaria.flappykek / u0a217 / v3:
+           TOTAL: 8.5% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+             Top: 8.5% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+      (Last Act): 0.15%
+
+Run time Stats:
+  SOff/Norm: +6m24s615ms
+  SOn /Norm: +31m48s406ms (running)
+      TOTAL: +38m13s21ms
+
+Memory usage:
+  Kernel : 358MB (24 samples)
+  Native : 279MB (24 samples)
+  Persist: 282MB (54 samples)
+  Top    : 163MB (94 samples)
+  ImpFg  : 368MB (152 samples)
+  ImpBg  : 52MB (134 samples)
+  Backup : 10KB (28 samples)
+  Service: 340MB (245 samples)
+  Receivr: 53KB (147 samples)
+  Home   : 58MB (26 samples)
+  LastAct: 29MB (96 samples)
+  CchAct : 19MB (29 samples)
+  CchCAct: 6.8MB (21 samples)
+  CchEmty: 342MB (301 samples)
+  Cached : 820MB (24 samples)
+  Free   : 132MB (24 samples)
+  Z-Ram  : 112MB (24 samples)
+  TOTAL  : 3.3GB
+  ServRst: 3.2KB (14 samples)
+
+          Start time: 2017-10-24 12:31:05
+  Total elapsed time: +38m13s47ms (partial) (swapped-out-pss) libart.so
+
+Available pages by page size:
+Zone   0       Unmovable    269   156    29     0     0     0     0     0     0     0     0
+Zone   0     Reclaimable    228     7    12     0     0     0     0     0     0     0     0
+Zone   0         Movable   1865  2370   163    26     0     0     0     0     0     0     0
+Zone   0             CMA      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Reserve      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Isolate      0     0     0     0     0     0     0     0     0     0     0
+Zone   0       Unmovable    174   211    70     3     0     0     0     0     0     0     0
+Zone   0     Reclaimable     26    19     4     0     0     0     0     0     0     0     0
+Zone   0         Movable   3855  2135    41     0     0     0     0     0     0     0     0
+Zone   0             CMA      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Reserve      0     0     5     1     0     0     0     0     0     0     0
+Zone   0         Isolate      0     0     0     0     0     0     0     0     0     0     0
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 17 samples:
+    Cached: 278MB min, 742MB avg, 2.1GB max
+    Free: 42MB min, 181MB avg, 644MB max
+    ZRam: 30MB min, 109MB avg, 155MB max
+    Kernel: 247MB min, 375MB avg, 443MB max
+    Native: 242MB min, 276MB avg, 368MB max
+  SOn /Norm: 16 samples:
+    Cached: 295MB min, 787MB avg, 2.2GB max
+    Free: 42MB min, 168MB avg, 490MB max
+    ZRam: 4.0KB min, 84MB avg, 153MB max
+    Kernel: 174MB min, 353MB avg, 451MB max
+    Native: 244MB min, 288MB avg, 349MB max
+       Mod : 1 samples:
+    Cached: 357MB min, 357MB avg, 357MB max
+    Free: 83MB min, 83MB avg, 83MB max
+    ZRam: 145MB min, 145MB avg, 145MB max
+    Kernel: 409MB min, 409MB avg, 409MB max
+    Native: 293MB min, 293MB avg, 293MB max
+
+Per-Package Stats:
+  * com.santamaria.flappykek / u0a213 / v3:
+      * com.santamaria.flappykek / u0a213 / v3:
+               TOTAL: 2.1% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+                 Top: 2.1% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+          (Last Act): 0.01%
+  * com.santamaria.flappykek / u0a217 / v3:
+      * com.santamaria.flappykek / u0a217 / v3:
+               TOTAL: 0.58% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+                 Top: 0.58% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+          (Last Act): 0.01%
+      * com.google.firebase.iid.FirebaseInstanceIdService:
+        Process: com.santamaria.flappykek
+            Running count 4 / time 0.01%
+            Started count 2 / time 0.01%
+            Executing count 4 / time 0.00%
+  * com.santamaria.flappykek / u0a218 / v3:
+      * com.santamaria.flappykek / u0a218 / v3:
+               TOTAL: 3.3% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+                 Top: 3.3% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+          (Last Act): 0.18% (72MB-72MB-72MB/63MB-63MB-63MB over 1)
+      * com.google.firebase.iid.FirebaseInstanceIdService:
+        Process: com.santamaria.flappykek
+            Running count 4 / time 0.01%
+            Started count 2 / time 0.01%
+            Executing count 4 / time 0.00%
+
+Summary:
+  * com.santamaria.flappykek / u0a218 / v3:
+           TOTAL: 3.3% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+             Top: 3.3% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+      (Last Act): 0.18% (72MB-72MB-72MB/63MB-63MB-63MB over 1)
+  * com.santamaria.flappykek / u0a213 / v3:
+           TOTAL: 2.1% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+             Top: 2.1% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+      (Last Act): 0.01%
+  * com.santamaria.flappykek / u0a217 / v3:
+           TOTAL: 0.58% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+             Top: 0.58% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+      (Last Act): 0.01%
+
+Run time Stats:
+  SOff/Norm: +3h12m55s604ms
+  SOn /Norm: +5h59m57s359ms
+       Mod : +5m44s337ms
+      TOTAL: +9h18m37s300ms
+
+Memory usage:
+  Kernel : 361MB (237 samples)
+  Native : 283MB (237 samples)
+  Persist: 289MB (683 samples)
+  Top    : 210MB (1635 samples)
+  ImpFg  : 367MB (2349 samples)
+  ImpBg  : 14MB (3550 samples)
+  Backup : 412 (354 samples)
+  Service: 353MB (5961 samples)
+  Receivr: 352KB (6338 samples)
+  Home   : 45MB (75 samples)
+  LastAct: 28MB (2320 samples)
+  CchAct : 55MB (173 samples)
+  CchCAct: 27MB (120 samples)
+  CchEmty: 371MB (3505 samples)
+  Cached : 771MB (237 samples)
+  Free   : 173MB (237 samples)
+  Z-Ram  : 92MB (237 samples)
+  TOTAL  : 3.4GB
+  ServRst: 5.2MB (2653 samples)
+
+          Start time: 2017-10-23 12:45:13
+  Total elapsed time: +23h24m19s461ms (partial) (swapped-out-pss) libart.so
+
+Available pages by page size:
+Zone   0       Unmovable    269   156    29     0     0     0     0     0     0     0     0
+Zone   0     Reclaimable    228     7    12     0     0     0     0     0     0     0     0
+Zone   0         Movable   1865  2370   163    26     0     0     0     0     0     0     0
+Zone   0             CMA      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Reserve      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Isolate      0     0     0     0     0     0     0     0     0     0     0
+Zone   0       Unmovable    174   211    70     3     0     0     0     0     0     0     0
+Zone   0     Reclaimable     26    19     4     0     0     0     0     0     0     0     0
+Zone   0         Movable   3855  2135    41     0     0     0     0     0     0     0     0
+Zone   0             CMA      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Reserve      0     0     5     1     0     0     0     0     0     0     0
+Zone   0         Isolate      0     0     0     0     0     0     0     0     0     0     0
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOff/Norm: 9 samples:
+    Cached: 414MB min, 859MB avg, 2.1GB max
+    Free: 50MB min, 214MB avg, 644MB max
+    ZRam: 30MB min, 90MB avg, 122MB max
+    Kernel: 247MB min, 356MB avg, 384MB max
+    Native: 242MB min, 276MB avg, 301MB max
+  SOn /Norm: 3 samples:
+    Cached: 501MB min, 578MB avg, 671MB max
+    Free: 42MB min, 58MB avg, 67MB max
+    ZRam: 111MB min, 119MB avg, 133MB max
+    Kernel: 364MB min, 371MB avg, 377MB max
+    Native: 283MB min, 296MB avg, 306MB max
+
+Per-Package Stats:
+  * com.santamaria.flappykek / u0a213 / v3:
+      * com.santamaria.flappykek / u0a213 / v3:
+               TOTAL: 6.2% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+                 Top: 6.2% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+          (Last Act): 0.02%
+  * com.santamaria.flappykek / u0a217 / v3:
+      * com.santamaria.flappykek / u0a217 / v3:
+               TOTAL: 1.7% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+                 Top: 1.7% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+          (Last Act): 0.03%
+      * com.google.firebase.iid.FirebaseInstanceIdService:
+        Process: com.santamaria.flappykek
+            Running count 4 / time 0.02%
+            Started count 2 / time 0.02%
+            Executing count 4 / time 0.01%
+  * com.santamaria.flappykek / u0a218 / v3:
+      * com.santamaria.flappykek / u0a218 / v3:
+               TOTAL: 9.7% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+                 Top: 9.7% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+          (Last Act): 0.52% (72MB-72MB-72MB/63MB-63MB-63MB over 1)
+            (Cached): 0.01%
+      * com.google.firebase.iid.FirebaseInstanceIdService:
+        Process: com.santamaria.flappykek
+            Running count 4 / time 0.02%
+            Started count 2 / time 0.02%
+            Executing count 4 / time 0.01%
+
+Summary:
+  * com.santamaria.flappykek / u0a218 / v3:
+           TOTAL: 9.7% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+             Top: 9.7% (73MB-79MB-126MB/65MB-79MB-115MB over 12)
+      (Last Act): 0.52% (72MB-72MB-72MB/63MB-63MB-63MB over 1)
+        (Cached): 0.01%
+  * com.santamaria.flappykek / u0a213 / v3:
+           TOTAL: 6.2% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+             Top: 6.2% (93MB-92MB-108MB/86MB-89MB-101MB over 6)
+      (Last Act): 0.02%
+  * com.santamaria.flappykek / u0a217 / v3:
+           TOTAL: 1.7% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+             Top: 1.7% (91MB-83MB-91MB/83MB-84MB-84MB over 2)
+      (Last Act): 0.03%
+
+Run time Stats:
+  SOff/Norm: +48m13s698ms
+  SOn /Norm: +2h20m52s606ms
+      TOTAL: +3h9m6s304ms
+
+Memory usage:
+  Kernel : 367MB (84 samples)
+  Native : 291MB (84 samples)
+  Persist: 250MB (226 samples)
+  Top    : 220MB (520 samples)
+  ImpFg  : 259MB (752 samples)
+  ImpBg  : 35MB (1046 samples)
+  Backup : 1.5KB (129 samples)
+  Service: 369MB (1532 samples)
+  Receivr: 277KB (1537 samples)
+  Home   : 51MB (74 samples)
+  LastAct: 31MB (538 samples)
+  CchAct : 36MB (64 samples)
+  CchCAct: 21MB (58 samples)
+  CchEmty: 388MB (1174 samples)
+  Cached : 650MB (84 samples)
+  Free   : 98MB (84 samples)
+  Z-Ram  : 111MB (84 samples)
+  TOTAL  : 3.1GB
+  ServRst: 226KB (367 samples)
+
+          Start time: 2017-10-24 08:48:48
+  Total elapsed time: +4h20m30s869ms (partial) (swapped-out-pss) libart.so
+
+Available pages by page size:
+Zone   0       Unmovable    269   156    29     0     0     0     0     0     0     0     0
+Zone   0     Reclaimable    228     7    12     0     0     0     0     0     0     0     0
+Zone   0         Movable   1865  2370   163    26     0     0     0     0     0     0     0
+Zone   0             CMA      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Reserve      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Isolate      0     0     0     0     0     0     0     0     0     0     0
+Zone   0       Unmovable    174   211    70     3     0     0     0     0     0     0     0
+Zone   0     Reclaimable     26    19     4     0     0     0     0     0     0     0     0
+Zone   0         Movable   3855  2135    41     0     0     0     0     0     0     0     0
+Zone   0             CMA      0     0     0     0     0     0     0     0     0     0     0
+Zone   0         Reserve      0     0     5     1     0     0     0     0     0     0     0
+Zone   0         Isolate      0     0     0     0     0     0     0     0     0     0     0
